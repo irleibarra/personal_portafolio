@@ -1,0 +1,126 @@
+html, body {
+    text-align: center;
+    color:white;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    text-align: right;
+    width: 100%;
+    background-color:rgb(128, 0, 100);
+}
+
+nav li {
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color:rgb(128, 0, 100);
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+
+.project-tile {
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(128, 0, 100);
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 20px 100px;
+}
+
+.project-img {
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    margin: 50px 100px;
+    width: 200px;
+    height: 40px;
+}
+
+#welcome-section {
+    top: 0;
+    background-color: rgb(153, 84, 138);
+    height: 100%;
+}
+
+#about_me h1 {
+    padding-top: 8rem;
+}
+
+#project, #contact {
+    margin: 20px 50px;
+}
+
+#contact {
+    display: block;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin: 20px;
+    }
+
+    .project-tile {
+        margin: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo {
+        margin: 20px 0;
+    }
+
+    #projects, #contact {
+        margin: 20px 0;
+    }
+}
